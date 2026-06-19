@@ -1,14 +1,14 @@
 # Receipt
 
-Generated: 2026-06-18
+Generated: 2026-06-19
 
 ## Project
 
 - Project name: The Children's Internet
 - Base slug: `the-childrens-internet`
 - Chosen repository slug: `the-childrens-internet`
-- Version status: base slug selected; remote availability not confirmed because GitHub CLI authentication is invalid
-- Intended repository URL: `https://github.com/thefayth/the-childrens-internet`
+- Version status: base slug confirmed available and used
+- Repository URL: `https://github.com/thefayth/the-childrens-internet`
 
 ## Work Completed
 
@@ -16,6 +16,8 @@ Generated: 2026-06-18
 - Created README, ownership notices, status docs, public/private boundary docs, workflow diagrams, image audit, WordPress draft, privacy review, and launch checklist
 - Copied selected public-safe v2 project artwork into export assets
 - Generated hero, GitHub banner, social card, and project icon from existing project visuals
+- Created public GitHub repository `thefayth/the-childrens-internet`
+- Populated the repository through the GitHub API after local Git credential transport failed
 
 ## Files Created
 
@@ -64,4 +66,4 @@ Default status: READY AFTER FAITH REVIEW
 
 ## Recommended Next Action
 
-Refresh GitHub CLI authentication for `thefayth`, verify slug availability, initialize git inside `_github_public_export/`, create the public repository, push the export, and then review the WordPress draft manually before publication.
+Review the published repository and WordPress draft manually, then decide whether to publish the WordPress project page at `/projects/the-childrens-internet/`.

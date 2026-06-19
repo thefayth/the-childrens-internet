@@ -11,10 +11,10 @@
 - [x] Image audit created.
 - [x] Hero image exists.
 - [x] Selected visuals copied into asset folders.
-- [ ] GitHub CLI authentication refreshed.
-- [ ] Repository availability confirmed.
-- [ ] Repository created under `thefayth/the-childrens-internet`.
-- [ ] Export committed and pushed from `_github_public_export/`.
+- [x] GitHub CLI authentication refreshed.
+- [x] Repository availability confirmed.
+- [x] Repository created under `thefayth/the-childrens-internet`.
+- [x] Export populated on GitHub from `_github_public_export/`.
 
 ## WordPress
 

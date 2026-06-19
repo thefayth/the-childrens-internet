@@ -1,6 +1,6 @@
 # Status
 
-Generated: 2026-06-18
+Generated: 2026-06-19
 
 ## Status Summary
 
@@ -10,10 +10,10 @@ The Children's Internet is a working static presentation microsite and public co
 
 - Concept: active
 - Public microsite: working
-- Public GitHub surface: prepared locally
+- Public GitHub surface: published
 - Backend product: not implemented
 - WordPress project page: drafted, not published
-- GitHub repository: not created from this session because GitHub CLI authentication is invalid
+- GitHub repository: `https://github.com/thefayth/the-childrens-internet`
 
 ## Known Working Checks From Local Project History
 
