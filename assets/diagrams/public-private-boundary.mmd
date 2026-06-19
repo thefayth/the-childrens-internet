@@ -1,0 +1,10 @@
+flowchart TB
+  Public[Public surface] --> Readme[README and docs]
+  Public --> Visuals[Approved visuals]
+  Public --> WP[WordPress draft]
+  Private[Private engine] --> Source[Source code]
+  Private --> Ops[Deploy systems and credentials]
+  Private --> Workflows[Prompts, agents, receipts]
+  Private --> Product[Future backend and child-safety operations]
+  Gate[Review boundary] -. keeps private materials out .- Public
+  Gate -. protects .- Private

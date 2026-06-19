@@ -1,0 +1,29 @@
+# Launch Checklist
+
+## Repository Identity
+
+- Project name: The Children's Internet
+- Base slug: `the-childrens-internet`
+- Chosen repository slug: `the-childrens-internet`
+- Version status: base slug selected; remote availability not confirmed because GitHub CLI authentication is invalid
+- Intended repository URL: `https://github.com/thefayth/the-childrens-internet`
+
+## Required Before Push
+
+- [x] Confirm working directory for push is `_github_public_export/`.
+- [x] Confirm no source code is included.
+- [x] Confirm no credentials are included.
+- [x] Confirm ownership files exist.
+- [x] Confirm README exists.
+- [x] Confirm diagrams exist.
+- [x] Confirm WordPress draft exists.
+- [x] Confirm image audit exists.
+- [x] Confirm hero image exists.
+- [x] Confirm selected visuals are copied into asset folders.
+- [ ] Refresh GitHub CLI authentication for `thefayth`.
+- [ ] Confirm slug availability or choose versioned fallback.
+- [ ] Initialize git inside `_github_public_export/`.
+- [ ] Create and push repository.
+- [ ] Final Faith review before WordPress publication.
+
+See also: `docs/LAUNCH_CHECKLIST.md`.

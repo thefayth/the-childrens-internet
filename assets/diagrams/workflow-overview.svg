@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780" role="img" aria-labelledby="title desc">
+  <title id="title">The Children's Internet workflow overview</title>
+  <desc id="desc">Families, schools, and reviewers move through the public microsite toward GitHub and WordPress public surfaces.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff8ef"/>
+      <stop offset="1" stop-color="#e6f6ff"/>
+    </linearGradient>
+    <style>
+      .title{font:700 42px Segoe UI,Arial,sans-serif;fill:#24415d}
+      .label{font:700 24px Segoe UI,Arial,sans-serif;fill:#24415d}
+      .small{font:500 18px Segoe UI,Arial,sans-serif;fill:#6d8096}
+      .node{fill:#fff;stroke:#ffd86f;stroke-width:4}
+      .node2{fill:#ebfbf1;stroke:#addfff;stroke-width:4}
+      .line{stroke:#6d8096;stroke-width:4;fill:none;marker-end:url(#arrow)}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#6d8096"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="780" rx="34" fill="url(#bg)"/>
+  <text x="70" y="86" class="title">The Children's Internet: Public Workflow</text>
+  <text x="72" y="124" class="small">Public storytelling, review, and project legitimacy without exposing the private engine.</text>
+  <rect x="70" y="190" width="250" height="110" rx="28" class="node"/>
+  <text x="110" y="238" class="label">Families</text>
+  <text x="110" y="270" class="small">children + guardians</text>
+  <rect x="70" y="350" width="250" height="110" rx="28" class="node"/>
+  <text x="110" y="398" class="label">Schools</text>
+  <text x="110" y="430" class="small">libraries + partners</text>
+  <rect x="430" y="270" width="290" height="130" rx="30" class="node2"/>
+  <text x="472" y="322" class="label">Public microsite</text>
+  <text x="472" y="354" class="small">/kidsinternet/</text>
+  <rect x="820" y="160" width="235" height="100" rx="26" class="node"/>
+  <text x="865" y="207" class="label">Demo</text>
+  <text x="865" y="236" class="small">scenario walkthroughs</text>
+  <rect x="820" y="300" width="235" height="100" rx="26" class="node"/>
+  <text x="865" y="347" class="label">Pitch</text>
+  <text x="865" y="376" class="small">presentation mode</text>
+  <rect x="820" y="440" width="235" height="100" rx="26" class="node"/>
+  <text x="865" y="487" class="label">System</text>
+  <text x="865" y="516" class="small">trust architecture</text>
+  <rect x="1130" y="230" width="210" height="100" rx="26" class="node2"/>
+  <text x="1164" y="278" class="label">GitHub</text>
+  <text x="1164" y="306" class="small">public surface</text>
+  <rect x="1130" y="390" width="210" height="100" rx="26" class="node2"/>
+  <text x="1164" y="438" class="label">WordPress</text>
+  <text x="1164" y="466" class="small">project page</text>
+  <path d="M320 245 C365 245 380 310 430 320" class="line"/>
+  <path d="M320 405 C365 405 380 360 430 350" class="line"/>
+  <path d="M720 320 C760 260 780 220 820 210" class="line"/>
+  <path d="M720 340 C760 345 780 350 820 350" class="line"/>
+  <path d="M720 370 C760 430 780 480 820 490" class="line"/>
+  <path d="M1055 210 C1090 230 1100 260 1130 275" class="line"/>
+  <path d="M1055 350 C1090 350 1100 305 1130 290" class="line"/>
+  <path d="M1055 490 C1090 480 1100 455 1130 440" class="line"/>
+</svg>

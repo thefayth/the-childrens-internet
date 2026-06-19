@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780" role="img" aria-labelledby="title desc">
+  <title id="title">Public private boundary</title>
+  <desc id="desc">Public project materials are separated from private source code, credentials, workflows, and future backend systems.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff8ef"/>
+      <stop offset="1" stop-color="#f5fff3"/>
+    </linearGradient>
+    <style>
+      .title{font:700 42px Segoe UI,Arial,sans-serif;fill:#24415d}
+      .label{font:700 25px Segoe UI,Arial,sans-serif;fill:#24415d}
+      .small{font:500 18px Segoe UI,Arial,sans-serif;fill:#6d8096}
+      .public{fill:#ffffff;stroke:#ffd86f;stroke-width:4}
+      .private{fill:#f7fbff;stroke:#ff9ea2;stroke-width:4}
+      .gate{fill:#24415d}
+      .gateText{font:700 24px Segoe UI,Arial,sans-serif;fill:#ffffff}
+      .line{stroke:#6d8096;stroke-width:4;fill:none;marker-end:url(#arrow)}
+      .dash{stroke:#ff9ea2;stroke-width:5;stroke-dasharray:14 12}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#6d8096"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="780" rx="34" fill="url(#bg)"/>
+  <text x="70" y="86" class="title">Public Surface. Private Engine.</text>
+  <text x="72" y="124" class="small">The repository can explain the project without releasing the operational system.</text>
+  <line x1="700" y1="165" x2="700" y2="700" class="dash"/>
+  <rect x="80" y="190" width="250" height="100" rx="26" class="public"/>
+  <text x="122" y="236" class="label">README</text>
+  <text x="122" y="264" class="small">public story</text>
+  <rect x="385" y="190" width="250" height="100" rx="26" class="public"/>
+  <text x="427" y="236" class="label">Visuals</text>
+  <text x="427" y="264" class="small">approved assets</text>
+  <rect x="80" y="350" width="250" height="100" rx="26" class="public"/>
+  <text x="122" y="396" class="label">Diagrams</text>
+  <text x="122" y="424" class="small">conceptual flows</text>
+  <rect x="385" y="350" width="250" height="100" rx="26" class="public"/>
+  <text x="427" y="396" class="label">WordPress</text>
+  <text x="427" y="424" class="small">draft page</text>
+  <rect x="765" y="190" width="260" height="100" rx="26" class="private"/>
+  <text x="807" y="236" class="label">Source code</text>
+  <text x="807" y="264" class="small">not released</text>
+  <rect x="1080" y="190" width="260" height="100" rx="26" class="private"/>
+  <text x="1122" y="236" class="label">Credentials</text>
+  <text x="1122" y="264" class="small">never public</text>
+  <rect x="765" y="350" width="260" height="100" rx="26" class="private"/>
+  <text x="807" y="396" class="label">Workflows</text>
+  <text x="807" y="424" class="small">agents + receipts</text>
+  <rect x="1080" y="350" width="260" height="100" rx="26" class="private"/>
+  <text x="1122" y="396" class="label">Backend</text>
+  <text x="1122" y="424" class="small">future plan only</text>
+  <rect x="565" y="560" width="270" height="88" rx="28" class="gate"/>
+  <text x="607" y="613" class="gateText">Review Boundary</text>
+</svg>
